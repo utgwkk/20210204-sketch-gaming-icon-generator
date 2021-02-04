@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>It works!</h1>
       <Image src={src} hueRotate={hueRotate} contrast={contrast} />
       <input
         type="url"
